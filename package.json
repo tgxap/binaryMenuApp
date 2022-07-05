@@ -1,0 +1,23 @@
+{
+  "name": "BinaryMenuApp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "prod": "electron-builder",
+    "dev": "electron ."
+  },
+  "build": {
+    "appId": "com.electron.BinaryMenuApp",
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    }
+  },
+  "devDependencies": {
+    "electron": "^1.8.3",
+    "electron-builder": "^21.2.0",
+    "eslint-config-airbnb-standard": "^1.6.6"
+  },
+  "dependencies": {
+    "fix-path": "^2.1.0"
+  }
+}
